@@ -9,23 +9,34 @@
 <body>
   <div id="topo"></div>
 
-  <header class="navbar">
-    <h1 class="logo">
-      <a href="#topo" style="text-decoration: none; color: inherit;">Futuro<span> do Trabalho</span></a>
-    </h1>
-    <nav>
-      <a href="#introducao">Início</a>
-      <a href="#automacao">Automação</a>
-      <a href="#homeoffice">Home Office</a>
-      <a href="#carreiras">Novas Carreiras</a>
-      <a href="#empreendedorismo">Empreendedorismo</a>
-      <a href="#conclusao">O que Esperar do Amanhã</a>
-    </nav>
-  </header>
+<header class="navbar">
+  <h1 class="logo">
+    <a href="#topo" style="text-decoration: none; color: inherit;">Futuro<span> do Trabalho</span></a>
+  </h1>
 
-  <section class="hero">
-    <div class="hero-content">
-      <video autoplay loop muted playsinline class="hero-gif">
+  <!-- esconder checkbox -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+  <!-- Hamburguer -->
+  <label for="menu-toggle" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <nav class="nav-links">
+    <a href="#introducao">Início</a>
+    <a href="#automacao">Automação</a>
+    <a href="#homeoffice">Home Office</a>
+    <a href="#carreiras">Novas Carreiras</a>
+    <a href="#empreendedorismo">Empreendedorismo</a>
+    <a href="#conclusao">O que Esperar do Amanhã</a>
+  </nav>
+</header>
+
+  <section class="foto">
+    <div class="foto-content">
+      <video autoplay loop muted playsinline class="foto-gif">
         <source src="gif.mp4" type="video/mp4">
       </video>
       <h2>O futuro já começou.</h2>
